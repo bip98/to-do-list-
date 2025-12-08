@@ -1,4 +1,3 @@
-// public/script.js
 const API_URL = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
   ? "http://localhost:3000/todos" // local server
   : "/api/todos"; // production (Vercel rewrites)
